@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>去除</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="组件" transform="translate(-612.000000, -780.000000)" fill="#E25A50">
+            <g id="去除" transform="translate(612.000000, 780.000000)">
+                <path d="M16,0 C18.209139,0 20,1.790861 20,4 L20,16 C20,18.209139 18.209139,20 16,20 L4,20 C1.790861,20 0,18.209139 0,16 L0,4 C0,1.790861 1.790861,0 4,0 L16,0 Z M16,1 L4,1 C2.34314575,1 1,2.34314575 1,4 L1,16 C1,17.6568542 2.34314575,19 4,19 L16,19 C17.6568542,19 19,17.6568542 19,16 L19,4 C19,2.34314575 17.6568542,1 16,1 Z M14,9 C14.5522847,9 15,9.44771525 15,10 C15,10.5522847 14.5522847,11 14,11 L6,11 C5.44771525,11 5,10.5522847 5,10 C5,9.44771525 5.44771525,9 6,9 L14,9 Z" id="形状结合"></path>
+            </g>
+        </g>
+    </g>
+</svg>

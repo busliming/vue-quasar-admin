@@ -1,0 +1,42 @@
+/* 滚动条 */
+::-webkit-scrollbar-thumb:horizontal { /*水平滚动条的样式*/
+
+	width: 5px;
+	background: $panda-base-dark;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+::-webkit-scrollbar-track-piece {
+
+	background: #ffffff; /*滚动条的背景颜色*/
+	-webkit-border-radius: 5px; /*滚动条的圆角宽度*/
+}
+
+::-webkit-scrollbar {
+	width: 8px; /*滚动条的宽度*/
+	height: 8px; /*滚动条的高度*/
+}
+::-webkit-scrollbar:vertical {
+	display: block;     
+	visibility: visible;
+	width: 8px; /*滚动条的宽度*/
+	height: 8px; /*滚动条的高度*/
+	background-color: #ffffff ;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:vertical { /*垂直滚动条的样式*/
+	height: 20px;
+	background: $panda-base-dark;
+	-webkit-border-radius: 5px;
+    /*outline: 2px solid #fff;*/
+	outline: none;
+	outline-offset: 0;
+	border: none;
+}
+::-webkit-scrollbar-thumb:hover { /*滚动条的hover样式*/
+    
+	height: 20px;
+	background-color:  #D9D9D9 ;
+	-webkit-border-radius: 5px;
+}

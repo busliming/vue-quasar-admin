@@ -1,0 +1,118 @@
+/* 
+* 当前文件内的 样式 主要是对应  panda  各种按钮样式的封装
+*/
+
+.panda-btn-table-handle
+  color  $panda-bg-2
+  padding-left  4px
+  padding-right  4px 
+  font-size  1em
+  line-height 1em
+  cursor  pointer
+
+.panda-btn-table-handle:hover
+  text-decoration: underline;
+
+
+
+panda-btn-dense()
+  background-color #69C969
+  color #FFFFFF
+  display: inline-block; 
+  height: 26px;
+  width: 56px;
+  padding: 0 10px;
+  line-height: 26px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer
+
+
+
+.panda-btn-primary-dense
+  panda-btn-dense()
+  borderColor $panda-color-primary
+  background-color: #ffffff
+
+.panda-btn-green
+  panda-btn-dense()
+  
+
+.panda-btn-blue
+  panda-btn-dense()
+  background-color:  $panda-bg-2
+
+.panda-btn-white
+  background: #FFFFFF;
+  // border: 1px solid #8A92A5;
+  border-radius: 4px;
+  border-radius: 4px;
+
+.panda-btn-grey
+  panda-btn-dense()
+  background-color:  #8A92A5 !important
+  borderColor: #8A92A5 !important
+
+.panda-btn-save
+  width: 65px;
+  height: 32px;
+  background: #8A92A5 !important;
+  baorder-color:  #8A92A5 !important
+  border-radius: 4px;
+  border-radius: 4px;
+  color: #fff !important
+
+.panda-btn-save:hover
+  background-color:  #8A92A5 !important
+  border-color: #8A92A5 !important
+  color: #ffffff !important
+
+.panda-btn-upload
+  border: 1px solid $primary
+  color: $panda-bg-2 
+  width: 100px
+  height: 30px
+  line-height: 30px
+  border-radius: 4px
+  text-align: center
+
+.panda-btn-del
+  border: 1px solid #E25A5 !important;
+  color: #E25A5
+  border-radius: 4px;
+  
+  width: 20px
+  height: 20px;
+  vertical-align: middle;
+  text-align: center;
+  box-sizing: border-box
+
+
+
+
+
+
+
+/*按钮选中和滑过背景*/
+.panda-btn-select-bg
+  background #663727;
+
+/*统一 按钮hover  样式 */
+.panda-btn-hover    // 父级class
+  position relative
+
+.panda-btn-hover:hover
+  .padan-btn-select-bg
+    display block
+
+.panda-btn-hover-bg-red:hover
+  background #DC4748 
+
+.panda-btn-hover-bg-green:hover
+  background #4088DB
+
+.panda-btn-hover-bg-gray:hover
+  background #687186
+
+  

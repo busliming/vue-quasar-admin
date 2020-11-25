@@ -1,0 +1,182 @@
+@font-face {
+  font-family: 'panda';
+  src:  url('fonts/panda.eot?6zqx9k');
+  src:  url('fonts/panda.eot?6zqx9k#iefix') format('embedded-opentype'),
+    url('fonts/panda.ttf?6zqx9k') format('truetype'),
+    url('fonts/panda.woff?6zqx9k') format('woff'),
+    url('fonts/panda.svg?6zqx9k#panda') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.panda-icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'panda' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.panda-icon-panda-icon-come:before {
+  content: "\e924";
+  color: #8a92a5;
+}
+.panda-icon-panda-icon-cancel:before {
+  content: "\e925";
+  color: #8a92a5;
+}
+.panda-icon-panda-icon-shezhi-erji:before {
+  content: "\e922";
+  color: #8a92a5;
+}
+.panda-icon-panda-icon-zi-guanli:before {
+  content: "\e923";
+  color: #8a92a5;
+}
+.panda-icon-panda-icon-ip:before {
+  content: "\e926";
+  color: #8a92a5;
+}
+.panda-icon-delete:before {
+  content: "\e921";
+  color: #8a92a5;
+}
+.panda-icon-bian-ji:before {
+  content: "\e920";
+  color: #8a92a5;
+}
+.panda-icon-caiwu-zhongxin:before {
+  content: "\e900";
+  color: #8a92a5;
+}
+.panda-icon-cha-kan:before {
+  content: "\e901";
+  color: #8a92a5;
+}
+.panda-icon-cha-zhao:before {
+  content: "\e902";
+  color: #7d87a5;
+}
+.panda-icon-deng-chu:before {
+  content: "\e903";
+  color: #3c4551;
+}
+.panda-icon-fu-zhi-key:before {
+  content: "\e904";
+  color: #8a92a5;
+}
+.panda-icon-gon-gao:before {
+  content: "\e905";
+  color: #3263ff;
+}
+.panda-icon-gong-gao:before {
+  content: "\e906";
+  color: #8a92a5;
+}
+.panda-icon-mi-ma:before {
+  content: "\e907";
+  color: #3c4551;
+}
+.panda-icon-qu-chu:before {
+  content: "\e908";
+  color: #e25a50;
+}
+.panda-icon-ri-li:before {
+  content: "\e909";
+  color: #b4bbcb;
+}
+.panda-icon-rili-zujian-nianfen:before {
+  content: "\e90a";
+}
+.panda-icon-shaixuan-yu-biaoge-neixiala:before {
+  content: "\e90b";
+  color: #bfbfbf;
+}
+.panda-icon-shangchuan-wenjian:before {
+  content: "\e90c";
+  color: #8a92a5;
+}
+.panda-icon-shang-hu:before {
+  content: "\e90d";
+  color: #8a92a5;
+}
+.panda-icon-she-zhi:before {
+  content: "\e90e";
+  color: #8a92a5;
+}
+.panda-icon-shezhi-guanliyuan:before {
+  content: "\e90f";
+  color: #8a92a5;
+}
+.panda-icon-shijianzujian-fenzhongxuanze:before {
+  content: "\e910";
+}
+.panda-icon-shijian-zujian-shanchu:before {
+  content: "\e911";
+}
+.panda-icon-shijian-zujian-yuefen:before {
+  content: "\e912";
+}
+.panda-icon-shu-ju:before {
+  content: "\e913";
+  color: #8a92a5;
+}
+.panda-icon-shuju-zhongxin:before {
+  content: "\e914";
+  color: #8a92a5;
+}
+.panda-icon-xia-la:before {
+  content: "\e915";
+  color: #8a92a5;
+}
+.panda-icon-xiao-xi:before {
+  content: "\e916";
+  color: #8a92a5;
+}
+.panda-icon-xia-zai:before {
+  content: "\e917";
+  color: #8a92a5;
+}
+.panda-icon-yong-hu .path1:before {
+  content: "\e918";
+  color: rgb(250, 250, 250);
+}
+.panda-icon-yong-hu .path2:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(240, 240, 240);
+}
+.panda-icon-yong-hu .path3:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(216, 216, 216);
+}
+.panda-icon-yong-hu .path4:before {
+  content: "\e91b";
+  margin-left: -1em;
+  color: rgb(216, 216, 216);
+}
+.panda-icon-zhan-kai:before {
+  content: "\e91c";
+  color: #8a92a5;
+}
+.panda-icon-zhankai-beifen:before {
+  content: "\e91d";
+  color: #3263ff;
+}
+.panda-icon-zhudanxiangqing-shu:before {
+  content: "\e91e";
+  color: #6dd400;
+}
+.panda-icon-zhudanxiangqing-ying:before {
+  content: "\e91f";
+  color: #ff3a3a;
+}

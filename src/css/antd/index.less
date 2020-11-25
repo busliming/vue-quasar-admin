@@ -1,0 +1,81 @@
+@import "~ant-design-vue/dist/antd.less";
+
+// @primary-color: #3263FF;
+
+@text-color: #666666;
+
+@border-color-base: #c1c1c1;
+
+@input-height-base: 30px;
+// @input-padding-horizontal: 10px;
+@input-placeholder-color: #B4BBCB;
+
+
+//处理input输入框  内容距离右边的距离
+.ant-input-affix-wrapper .ant-input:not(:last-child) {
+  padding-right: 55px;
+}
+
+// x清除按钮距离右边的巨鹿
+.ant-input-clear-icon{
+  margin-right: 10px;
+}
+
+.ant-input{
+  font-size: 13px;
+}
+
+.ant-select{
+  font-size: 13px;
+}
+
+.ant-radio-button-wrapper{
+  height: 30px;
+}
+
+.ant-table-middle .ant-table-content .ant-table-scroll .ant-table-header table .ant-table-thead tr th{
+  padding: 9.5px 8px 10px 8px;
+  background-color: #fff;
+}
+
+.ant-table-middle .ant-table-content .ant-table-fixed-right .ant-table-header table .ant-table-thead tr th{
+  padding: 9.5px 8px 10px 8px;
+  background-color: #fff;
+}
+
+.ant-table-middle .ant-table-content .ant-table-fixed-left .ant-table-header table .ant-table-thead tr th{
+  padding: 9.5px 8px 10px 8px;
+}
+
+.ant-table-middle .ant-table-content .ant-table-scroll .ant-table-body table .ant-table-tbody tr td{
+  padding: 11px 8px 10.5px 8px;
+}
+
+.ant-table-middle .ant-table-content .ant-table-fixed-left .ant-table-body-outer .ant-table-body-inner table .ant-table-tbody tr td{
+  padding: 11px 8px 10.5px 8px;
+}
+
+.ant-table-middle .ant-table-content .ant-table-fixed-right .ant-table-body-outer .ant-table-body-inner table .ant-table-tbody tr td{
+  padding: 11px 8px 10.5px 8px;
+}
+
+.ant-table-pagination.ant-pagination{
+  width: 100%;
+  text-align: right;
+  margin: 4px 0;
+  padding: 11px 0;
+  // border-top: 1px solid rgba(102,102,102,0.10)
+  // box-shadow: -2px -2px 4px rgba(102,102,102,0.10);
+  // box-shadow: inset -2px -2px 10px -15px rgba(102,102,102,0.10);
+}
+
+// 11-11重构分页器表格分开样式分页
+.ant-pagination{
+  text-align: right;
+  margin-top: 4px;
+  width: 100%;
+  padding: 11px 10px 11px 0;
+  // margin-right: 10px;
+  // background-color: red;
+  box-shadow: 0 -2px 4px rgba(102,102,102,0.10);
+}

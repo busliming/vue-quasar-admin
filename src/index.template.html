@@ -1,0 +1,36 @@
+<!--
+ * @Desc: 
+ * @Date: 2020-02-25 16:10:38
+ * @LastEditors: Nice
+ * @LastEditTime: 2020-09-04 19:38:50
+--> 
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <title><%= htmlWebpackPlugin.options.productName %></title> -->
+    <title><%= htmlWebpackPlugin.options.title %></title>
+
+    <meta charset="utf-8">
+    <meta name="version_date" content="<%= htmlWebpackPlugin.options.version_date %>">
+    <meta name="version_branch" content="<%= htmlWebpackPlugin.options.version_branch %>">
+    <meta name="version_tag" content="<%= htmlWebpackPlugin.options.version_tag %>">
+    <meta name="version_build_tag" content="<%= htmlWebpackPlugin.options.version_build_tag %>">
+    <meta name="description" content="<%= htmlWebpackPlugin.options.description %>">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="google" content="notranslate"/> 
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width<% if (htmlWebpackPlugin.options.ctx.mode.cordova || htmlWebpackPlugin.options.ctx.mode.capacitor) { %>, viewport-fit=cover<% } %>">
+
+    <link rel="icon" type="image/png" href="statics/logo.png">
+    <link rel="stylesheet" href="statics/css/driver.css">
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="statics/icons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="statics/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="statics/icons/favicon-96x96.png"> -->
+    <!-- <link rel="icon" type="image/ico" href="statics/icons/favicon.ico"> -->
+  </head>
+  <body>
+    <!-- DO NOT touch the following DIV -->
+    <div id="q-app"></div>
+    <script src="statics/js/driver.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="20px" viewBox="0 0 18 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFCE72" offset="0%"></stop>
+            <stop stop-color="#FF5F37" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="组件" transform="translate(-942.000000, -490.000000)" fill="url(#linearGradient-1)">
+            <path d="M951.160254,490.288675 L958.820508,494.711325 C959.129909,494.889958 959.320508,495.220085 959.320508,495.57735 L959.320508,504.42265 C959.320508,504.779915 959.129909,505.110042 958.820508,505.288675 L951.160254,509.711325 C950.850853,509.889958 950.469655,509.889958 950.160254,509.711325 L942.5,505.288675 C942.190599,505.110042 942,504.779915 942,504.42265 L942,495.57735 C942,495.220085 942.190599,494.889958 942.5,494.711325 L950.160254,490.288675 C950.469655,490.110042 950.850853,490.110042 951.160254,490.288675 Z M952.098254,495.032 L950.222254,495.032 L948.696254,496.222 L948.696254,498.322 L950.222254,497.23 L950.222254,505 L952.098254,505 L952.098254,495.032 Z" id="1"></path>
+        </g>
+    </g>
+</svg>
